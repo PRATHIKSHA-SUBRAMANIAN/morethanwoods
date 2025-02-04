@@ -14,7 +14,7 @@ const Clock = () => {
 
   const countDown = () => {
 
-    const destination = new Date('Dec 15, 2023').getTime()
+    const destination = new Date('Dec 30, 2025').getTime()
     interval = setInterval(() => {
       const now = new Date().getTime()
       const different = destination - now
